@@ -31,6 +31,12 @@ public class TestBase {
 	  {
 		  System.out.println("before Class");
 	  }
+	  @BeforeClass
+	  public void beforeClass1()
+	  {
+		  System.out.println("before Class 1");
+	  }
+	  
 	  @BeforeTest
 	  public void beforeTest()
 	  {

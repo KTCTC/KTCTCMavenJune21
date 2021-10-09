@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite name="KTCTCBanking">
+  <test thread-count="5" name="Regression">
     <classes>
       <class name="KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2"/>
       <class name="KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3"/>
-     
-    </classes>
-  </test> <!-- Test -->
-  <test thread-count="5" name="Test">
-    <classes>
-
       <class name="KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG"/>
-    </classes>
+</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

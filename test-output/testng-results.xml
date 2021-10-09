@@ -1,163 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="12" passed="8">
+<testng-results skipped="0" failed="1" ignored="1" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression" duration-ms="514" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:21 IST">
+  <suite name="Default suite" duration-ms="61" started-at="2021-10-09T21:49:28 IST" finished-at="2021-10-09T21:49:28 IST">
     <groups>
     </groups>
-    <test name="Functional" duration-ms="393" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-      <class name="KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@131276c2]" name="beforeTest" is-config="true" duration-ms="3" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@131276c2]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@131276c2]" name="beforeMethodAnnotation" is-config="true" duration-ms="1" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodAnnotation -->
-        <test-method status="PASS" signature="A()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@131276c2]" name="A" duration-ms="8" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- A -->
-        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@131276c2]" name="afterMethodAnnotation" is-config="true" duration-ms="0" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodAnnotation -->
-        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@131276c2]" name="beforeMethodAnnotation" is-config="true" duration-ms="0" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodAnnotation -->
-        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@131276c2]" name="B" duration-ms="3" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
+    <test name="Default test" duration-ms="61" started-at="2021-10-09T21:49:28 IST" finished-at="2021-10-09T21:49:28 IST">
+      <class name="KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG">
+        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG@7494e528]" name="B" duration-ms="7" started-at="2021-10-09T21:49:28 IST" finished-at="2021-10-09T21:49:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- B -->
-        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@131276c2]" name="afterMethodAnnotation" is-config="true" duration-ms="1" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodAnnotation -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@131276c2]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@131276c2]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2 -->
-      <class name="KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3@26aa12dd]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3@26aa12dd]" name="beforeMethodAnnotation" is-config="true" duration-ms="0" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodAnnotation -->
-        <test-method status="PASS" signature="A()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3@26aa12dd]" name="A" duration-ms="3" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- A -->
-        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3@26aa12dd]" name="afterMethodAnnotation" is-config="true" duration-ms="1" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodAnnotation -->
-        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3@26aa12dd]" name="beforeMethodAnnotation" is-config="true" duration-ms="1" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodAnnotation -->
-        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3@26aa12dd]" name="B" duration-ms="14" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
+        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG@7494e528]" name="B" duration-ms="2" started-at="2021-10-09T21:49:28 IST" finished-at="2021-10-09T21:49:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- B -->
-        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3@26aa12dd]" name="afterMethodAnnotation" is-config="true" duration-ms="0" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodAnnotation -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3@26aa12dd]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3 -->
-    </test> <!-- Functional -->
-    <test name="NonFunction" duration-ms="43" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:21 IST">
-      <class name="KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="beforeSuite" is-config="true" duration-ms="33" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="beforeMethodAnnotation" is-config="true" duration-ms="1" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodAnnotation -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="A()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="A" duration-ms="2" started-at="2021-10-08T21:57:20 IST" finished-at="2021-10-08T21:57:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- A -->
-        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="afterMethodAnnotation" is-config="true" duration-ms="1" started-at="2021-10-08T21:57:21 IST" finished-at="2021-10-08T21:57:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodAnnotation -->
-        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="beforeMethodAnnotation" is-config="true" duration-ms="1" started-at="2021-10-08T21:57:21 IST" finished-at="2021-10-08T21:57:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodAnnotation -->
-        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="B" duration-ms="3" started-at="2021-10-08T21:57:21 IST" finished-at="2021-10-08T21:57:21 IST">
+        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG@7494e528]" name="B" duration-ms="2" started-at="2021-10-09T21:49:28 IST" finished-at="2021-10-09T21:49:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- B -->
-        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="afterMethodAnnotation" is-config="true" duration-ms="1" started-at="2021-10-08T21:57:21 IST" finished-at="2021-10-08T21:57:21 IST">
+        <test-method status="FAIL" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG@7494e528]" name="B" duration-ms="4" started-at="2021-10-09T21:49:28 IST" finished-at="2021-10-09T21:49:28 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG.B(InvocationCountInTestNG.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethodAnnotation -->
-        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="beforeMethodAnnotation" is-config="true" duration-ms="0" started-at="2021-10-08T21:57:21 IST" finished-at="2021-10-08T21:57:21 IST">
+        </test-method> <!-- B -->
+        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG@7494e528]" name="B" duration-ms="1" started-at="2021-10-09T21:49:28 IST" finished-at="2021-10-09T21:49:28 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethodAnnotation -->
-        <test-method status="PASS" signature="verfyUserCanLoginWithVAlidCredentials()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="verfyUserCanLoginWithVAlidCredentials" duration-ms="1" started-at="2021-10-08T21:57:21 IST" finished-at="2021-10-08T21:57:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verfyUserCanLoginWithVAlidCredentials -->
-        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="afterMethodAnnotation" is-config="true" duration-ms="1" started-at="2021-10-08T21:57:21 IST" finished-at="2021-10-08T21:57:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodAnnotation -->
-        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="beforeMethodAnnotation" is-config="true" duration-ms="2" started-at="2021-10-08T21:57:21 IST" finished-at="2021-10-08T21:57:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodAnnotation -->
-        <test-method status="PASS" signature="verfyUserCanNotLoginWithInvalidUserNameAndValidPassWord()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="verfyUserCanNotLoginWithInvalidUserNameAndValidPassWord" duration-ms="4" started-at="2021-10-08T21:57:21 IST" finished-at="2021-10-08T21:57:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verfyUserCanNotLoginWithInvalidUserNameAndValidPassWord -->
-        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="afterMethodAnnotation" is-config="true" duration-ms="4" started-at="2021-10-08T21:57:21 IST" finished-at="2021-10-08T21:57:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodAnnotation -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-10-08T21:57:21 IST" finished-at="2021-10-08T21:57:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-10-08T21:57:21 IST" finished-at="2021-10-08T21:57:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@4493d195]" name="afterSuite" is-config="true" duration-ms="1" started-at="2021-10-08T21:57:21 IST" finished-at="2021-10-08T21:57:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG -->
-    </test> <!-- NonFunction -->
-  </suite> <!-- Regression -->
+        </test-method> <!-- B -->
+      </class> <!-- KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
