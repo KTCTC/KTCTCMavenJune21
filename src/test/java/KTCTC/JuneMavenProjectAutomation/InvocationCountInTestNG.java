@@ -21,7 +21,7 @@ public class InvocationCountInTestNG {
 	@Test (invocationCount = 5)
 	public void B()
 	{
-		System.out.println("Hi checking for invocation count");
+		System.out.println("Hi checking for invocation count in Method B");
 		count++;
 		if (count==4)
 		{

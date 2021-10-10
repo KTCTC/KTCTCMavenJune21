@@ -1,25 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="1" total="6" passed="4">
+<testng-results skipped="0" failed="11" ignored="11" total="44" passed="22">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61" started-at="2021-10-09T21:49:28 IST" finished-at="2021-10-09T21:49:28 IST">
+  <suite name="Suite" duration-ms="352" started-at="2021-10-10T21:27:42 IST" finished-at="2021-10-10T21:27:43 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61" started-at="2021-10-09T21:49:28 IST" finished-at="2021-10-09T21:49:28 IST">
+    <test name="Test" duration-ms="352" started-at="2021-10-10T21:27:42 IST" finished-at="2021-10-10T21:27:43 IST">
+      <class name="KTCTC.JuneMavenProjectAutomation.DataProviderAnnotation">
+        <test-method status="PASS" signature="sampleMethod(java.lang.String)[pri:0, instance:KTCTC.JuneMavenProjectAutomation.DataProviderAnnotation@74650e52]" name="sampleMethod" duration-ms="1" started-at="2021-10-10T21:27:43 IST" data-provider="getSingleDimentionArray" finished-at="2021-10-10T21:27:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Welcome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleMethod -->
+        <test-method status="PASS" signature="sampleMethod(java.lang.String)[pri:0, instance:KTCTC.JuneMavenProjectAutomation.DataProviderAnnotation@74650e52]" name="sampleMethod" duration-ms="4" started-at="2021-10-10T21:27:43 IST" data-provider="getSingleDimentionArray" finished-at="2021-10-10T21:27:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleMethod -->
+        <test-method status="PASS" signature="sampleMethod(java.lang.String)[pri:0, instance:KTCTC.JuneMavenProjectAutomation.DataProviderAnnotation@74650e52]" name="sampleMethod" duration-ms="1" started-at="2021-10-10T21:27:43 IST" data-provider="getSingleDimentionArray" finished-at="2021-10-10T21:27:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleMethod -->
+        <test-method status="PASS" signature="sampleMethod(java.lang.String)[pri:0, instance:KTCTC.JuneMavenProjectAutomation.DataProviderAnnotation@74650e52]" name="sampleMethod" duration-ms="1" started-at="2021-10-10T21:27:43 IST" data-provider="getSingleDimentionArray" finished-at="2021-10-10T21:27:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KTCTC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleMethod -->
+        <test-method status="PASS" signature="sampleMethod2(int, int)[pri:0, instance:KTCTC.JuneMavenProjectAutomation.DataProviderAnnotation@74650e52]" name="sampleMethod2" duration-ms="15" started-at="2021-10-10T21:27:43 IST" data-provider="getTwoDimentionArray" finished-at="2021-10-10T21:27:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleMethod2 -->
+        <test-method status="PASS" signature="sampleMethod2(int, int)[pri:0, instance:KTCTC.JuneMavenProjectAutomation.DataProviderAnnotation@74650e52]" name="sampleMethod2" duration-ms="4" started-at="2021-10-10T21:27:43 IST" data-provider="getTwoDimentionArray" finished-at="2021-10-10T21:27:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[67]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[89]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleMethod2 -->
+      </class> <!-- KTCTC.JuneMavenProjectAutomation.DataProviderAnnotation -->
+      <class name="KTCTC.JuneMavenProjectAutomation.AssertsInTestNG">
+        <test-method status="FAIL" signature="A()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AssertsInTestNG@4b1c1ea0]" name="A" duration-ms="10" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assertion is failed expecting false expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assertion is failed expecting false expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertFalse(Assert.java:67)
+at KTCTC.JuneMavenProjectAutomation.AssertsInTestNG.A(AssertsInTestNG.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method status="FAIL" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AssertsInTestNG@4b1c1ea0]" name="B" duration-ms="2" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Strings are matching did not expect [Hi] but found [Hi]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Strings are matching did not expect [Hi] but found [Hi]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failEquals(Assert.java:1041)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:147)
+at org.testng.Assert.assertNotEquals(Assert.java:1531)
+at KTCTC.JuneMavenProjectAutomation.AssertsInTestNG.B(AssertsInTestNG.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+        <test-method status="PASS" signature="C()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AssertsInTestNG@4b1c1ea0]" name="C" duration-ms="6" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C -->
+      </class> <!-- KTCTC.JuneMavenProjectAutomation.AssertsInTestNG -->
+      <class name="KTCTC.JuneMavenProjectAutomation.EnableInTestNG">
+        <test-method status="FAIL" signature="A()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.EnableInTestNG@17579e0f]" name="A" duration-ms="3" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assertion is failed expecting false expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assertion is failed expecting false expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertFalse(Assert.java:67)
+at KTCTC.JuneMavenProjectAutomation.EnableInTestNG.A(EnableInTestNG.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+      </class> <!-- KTCTC.JuneMavenProjectAutomation.EnableInTestNG -->
       <class name="KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG">
-        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG@7494e528]" name="B" duration-ms="7" started-at="2021-10-09T21:49:28 IST" finished-at="2021-10-09T21:49:28 IST">
+        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG@3712b94]" name="B" duration-ms="6" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- B -->
-        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG@7494e528]" name="B" duration-ms="2" started-at="2021-10-09T21:49:28 IST" finished-at="2021-10-09T21:49:28 IST">
+        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG@3712b94]" name="B" duration-ms="2" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- B -->
-        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG@7494e528]" name="B" duration-ms="2" started-at="2021-10-09T21:49:28 IST" finished-at="2021-10-09T21:49:28 IST">
+        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG@3712b94]" name="B" duration-ms="1" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- B -->
-        <test-method status="FAIL" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG@7494e528]" name="B" duration-ms="4" started-at="2021-10-09T21:49:28 IST" finished-at="2021-10-09T21:49:28 IST">
+        <test-method status="FAIL" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG@3712b94]" name="B" duration-ms="1" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -43,33 +226,425 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- B -->
-        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG@7494e528]" name="B" duration-ms="1" started-at="2021-10-09T21:49:28 IST" finished-at="2021-10-09T21:49:28 IST">
+        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG@3712b94]" name="B" duration-ms="2" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- B -->
       </class> <!-- KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="KTCTC.JuneMavenProjectAutomation.PrioritiesInTestNG">
+        <test-method status="PASS" signature="C()[pri:-7, instance:KTCTC.JuneMavenProjectAutomation.PrioritiesInTestNG@4d41cee]" name="C" duration-ms="23" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C -->
+        <test-method status="PASS" signature="A()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.PrioritiesInTestNG@4d41cee]" name="A" duration-ms="5" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method status="FAIL" signature="D()[pri:1, instance:KTCTC.JuneMavenProjectAutomation.PrioritiesInTestNG@4d41cee]" name="D" duration-ms="6" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at KTCTC.JuneMavenProjectAutomation.PrioritiesInTestNG.D(PrioritiesInTestNG.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- D -->
+        <test-method status="FAIL" signature="D()[pri:1, instance:KTCTC.JuneMavenProjectAutomation.PrioritiesInTestNG@4d41cee]" name="D" duration-ms="25" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at KTCTC.JuneMavenProjectAutomation.PrioritiesInTestNG.D(PrioritiesInTestNG.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- D -->
+        <test-method status="FAIL" signature="B()[pri:3, instance:KTCTC.JuneMavenProjectAutomation.PrioritiesInTestNG@4d41cee]" name="B" duration-ms="5" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at KTCTC.JuneMavenProjectAutomation.PrioritiesInTestNG.B(PrioritiesInTestNG.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+      </class> <!-- KTCTC.JuneMavenProjectAutomation.PrioritiesInTestNG -->
+      <class name="KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@53f65459]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2021-10-10T21:27:42 IST" finished-at="2021-10-10T21:27:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@53f65459]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-10-10T21:27:42 IST" finished-at="2021-10-10T21:27:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@53f65459]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-10-10T21:27:42 IST" finished-at="2021-10-10T21:27:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeClass1()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@53f65459]" name="beforeClass1" is-config="true" duration-ms="0" started-at="2021-10-10T21:27:42 IST" finished-at="2021-10-10T21:27:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass1 -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@53f65459]" name="beforeMethodAnnotation" is-config="true" duration-ms="2" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="A()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@53f65459]" name="A" duration-ms="23" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@53f65459]" name="afterMethodAnnotation" is-config="true" duration-ms="1" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@53f65459]" name="B" duration-ms="9" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@53f65459]" name="beforeMethodAnnotation" is-config="true" duration-ms="0" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@53f65459]" name="afterMethodAnnotation" is-config="true" duration-ms="2" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@53f65459]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@53f65459]" name="afterTest" is-config="true" duration-ms="3" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2@53f65459]" name="afterSuite" is-config="true" duration-ms="1" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG2 -->
+      <class name="KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3@1786dec2]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeClass1()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3@1786dec2]" name="beforeClass1" is-config="true" duration-ms="1" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass1 -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3@1786dec2]" name="beforeMethodAnnotation" is-config="true" duration-ms="0" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="A()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3@1786dec2]" name="A" duration-ms="5" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3@1786dec2]" name="afterMethodAnnotation" is-config="true" duration-ms="1" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3@1786dec2]" name="beforeMethodAnnotation" is-config="true" duration-ms="19" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3@1786dec2]" name="B" duration-ms="10" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3@1786dec2]" name="afterMethodAnnotation" is-config="true" duration-ms="1" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3@1786dec2]" name="afterClass" is-config="true" duration-ms="2" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG3 -->
+      <class name="KTCTC.JuneMavenProjectAutomation.DependentTestInTestNG">
+        <test-method status="PASS" signature="A()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.DependentTestInTestNG@3b088d51]" name="A" duration-ms="23" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method status="FAIL" signature="D()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.DependentTestInTestNG@3b088d51]" name="D" duration-ms="16" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at KTCTC.JuneMavenProjectAutomation.DependentTestInTestNG.D(DependentTestInTestNG.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- D -->
+        <test-method status="FAIL" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.DependentTestInTestNG@3b088d51]" name="B" duration-ms="4" started-at="2021-10-10T21:27:43 IST" depends-on-methods="KTCTC.JuneMavenProjectAutomation.DependentTestInTestNG.A" finished-at="2021-10-10T21:27:43 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at KTCTC.JuneMavenProjectAutomation.DependentTestInTestNG.B(DependentTestInTestNG.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+      </class> <!-- KTCTC.JuneMavenProjectAutomation.DependentTestInTestNG -->
+      <class name="KTCTC.JuneMavenProjectAutomation.SoftAssertsInTestNG">
+        <test-method status="FAIL" signature="A()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.SoftAssertsInTestNG@15d0c81b]" name="A" duration-ms="31" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Expecting elementy to be visible expected [true] but found [false],
+Message is not displayed properly expected [Hello] but found [Hi]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Expecting elementy to be visible expected [true] but found [false],
+Message is not displayed properly expected [Hello] but found [Hi]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at KTCTC.JuneMavenProjectAutomation.SoftAssertsInTestNG.A(SoftAssertsInTestNG.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method status="FAIL" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.SoftAssertsInTestNG@15d0c81b]" name="B" duration-ms="62" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [null] but found [org.testng.asserts.SoftAssert@7ef43fe1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [null] but found [org.testng.asserts.SoftAssert@7ef43fe1]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at KTCTC.JuneMavenProjectAutomation.SoftAssertsInTestNG.B(SoftAssertsInTestNG.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+      </class> <!-- KTCTC.JuneMavenProjectAutomation.SoftAssertsInTestNG -->
+      <class name="KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@6acdbdf5]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeClass1()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@6acdbdf5]" name="beforeClass1" is-config="true" duration-ms="1" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass1 -->
+        <test-method status="PASS" signature="A()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@6acdbdf5]" name="A" duration-ms="4" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@6acdbdf5]" name="beforeMethodAnnotation" is-config="true" duration-ms="0" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@6acdbdf5]" name="afterMethodAnnotation" is-config="true" duration-ms="3" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@6acdbdf5]" name="beforeMethodAnnotation" is-config="true" duration-ms="1" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="B()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@6acdbdf5]" name="B" duration-ms="3" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@6acdbdf5]" name="afterMethodAnnotation" is-config="true" duration-ms="1" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@6acdbdf5]" name="beforeMethodAnnotation" is-config="true" duration-ms="1" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="verfyUserCanLoginWithVAlidCredentials()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@6acdbdf5]" name="verfyUserCanLoginWithVAlidCredentials" duration-ms="9" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfyUserCanLoginWithVAlidCredentials -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@6acdbdf5]" name="afterMethodAnnotation" is-config="true" duration-ms="0" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@6acdbdf5]" name="beforeMethodAnnotation" is-config="true" duration-ms="0" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="verfyUserCanNotLoginWithInvalidUserNameAndValidPassWord()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@6acdbdf5]" name="verfyUserCanNotLoginWithInvalidUserNameAndValidPassWord" duration-ms="3" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfyUserCanNotLoginWithInvalidUserNameAndValidPassWord -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@6acdbdf5]" name="afterMethodAnnotation" is-config="true" duration-ms="1" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG@6acdbdf5]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-10-10T21:27:43 IST" finished-at="2021-10-10T21:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- KTCTC.JuneMavenProjectAutomation.AnnotaionsInTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG">
+      <class name="KTCTC.JuneMavenProjectAutomation.DataProviderAnnotation">
         <methods>
-          <include name="B"/>
+          <include name="sampleMethod"/>
         </methods>
-      </class> <!-- KTCTC.JuneMavenProjectAutomation.InvocationCountInTestNG -->
+      </class> <!-- KTCTC.JuneMavenProjectAutomation.DataProviderAnnotation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
