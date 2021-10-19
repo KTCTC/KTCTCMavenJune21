@@ -9,7 +9,7 @@ public class PrioritiesInTestNG {
 	public void C()
 	{
 		System.out.println("Method C from PrioritiesInTestNG");		
-		
+		System.out.println("Hi");
 	}
 	@Test (priority = 1, invocationCount = 2)
 	public void D()
