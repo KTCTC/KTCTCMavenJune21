@@ -9,7 +9,7 @@ public class AssertsInTestNG {
 	
 	WebDriver driver;
 	
-	
+	int a=90;
 	  @Test
 	  public void A()
 	  {
