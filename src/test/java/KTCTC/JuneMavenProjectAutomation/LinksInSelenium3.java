@@ -43,6 +43,7 @@ public class LinksInSelenium3 {
 				        
 					}
 			
+			
 			int status = getLinkStatus(actualURL);
 			
 			if (status>=400)
